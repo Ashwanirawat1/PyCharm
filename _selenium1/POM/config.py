@@ -1,4 +1,5 @@
 class Config:
     DRIVER_PATH = "../POM/chromedriver.exe"
-    URL = "https://www.google.com/"
-    MAX_TIME = 2
+    URL = "http://demowebshop.tricentis.com/login"
+    MAX_TIME = 20
+

@@ -130,6 +130,9 @@ def click_element(locator):
     driver.find_element(*locator).click()
 
 
+
+
+
 @_wait
 def enter_text(locator, *, value):
     driver.find_element(*locator).clear()
